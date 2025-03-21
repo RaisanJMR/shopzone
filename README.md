@@ -19,3 +19,6 @@ A minimal ecommerce application built for showcasing minimal functionality of an
 ### App Demo
 
 - [click here](https://www.loom.com/share/aead1a5e9ec94a74996aff586d1fe534?sid=93ce318e-ff21-4100-a272-bc14803a6a20)
+
+### Live Link
+ - [click here](https://shopzone-three.vercel.app/)
