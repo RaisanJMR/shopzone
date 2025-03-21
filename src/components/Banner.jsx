@@ -11,7 +11,7 @@ const Banner = () => {
       {/* Overlay content */}
       <div className="relative z-10 max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-extrabold text-blue-900 mb-4 animate-fadeIn">
-          Welcome to <span className="text-blue-700">ShopZone</span>
+          Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">ShopZone</span>
         </h1>
         <p className="text-lg md:text-xl text-blue-800 mb-6 animate-fadeIn delay-100">
           Discover unbeatable deals on fashion, electronics, and home essentials!
