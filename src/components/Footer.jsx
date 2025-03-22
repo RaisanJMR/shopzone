@@ -12,7 +12,7 @@ const Footer = () => {
 
         {/* About */}
         <div>
-          <h3 className="text-lg font-semibold mb-3 text-white">About ShopZone</h3>
+          <h3 className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">ShopZone</h3>
           <p>
             ShopZone brings together the best in fashion, electronics, and home products under one roof.
             Trust, quality, and affordability define us.

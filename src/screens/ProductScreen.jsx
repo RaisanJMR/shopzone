@@ -66,9 +66,9 @@ const ProductScreen = () => {
   
               <button
                 onClick={() => dispatch({ type: 'ADD_TO_CART', payload: product })}
-                className={`px-6 py-2 rounded text-white mt-2 transition ${
+                className={`px-6 py-2 rounded text-white mt-2 transition cursor-pointer ${
                   product.rating?.count > 0
-                    ? 'bg-green-600 hover:bg-green-700'
+                    ? 'bg-blue-600 hover:bg-blue-700'
                     : 'bg-gray-400 cursor-not-allowed'
                 }`}
                 disabled={product.rating?.count <= 0}

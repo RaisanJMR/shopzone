@@ -1,12 +1,24 @@
-# React + Vite
+# ShopZone Ecommerce application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal ecommerce application built for showcasing minimal functionality of an online store. Users can view product details, and manage their shopping cart with ease. This project demonstrates integration with a public API and a responsive UI using modern frontend technologies.
 
-Currently, two official plugins are available:
+## Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Reactjs - front end ui  
+- Tailwindcss - styling  
+- fakestore api - api to fetch data
 
-## Expanding the ESLint configuration
+### Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- view product  
+- add to cart  
+- view cart  
+- remove from cart  
+- view product details
+
+### App Demo
+
+- [click here](https://www.loom.com/share/aead1a5e9ec94a74996aff586d1fe534?sid=93ce318e-ff21-4100-a272-bc14803a6a20)
+
+### Live Link
+ - [click here](https://shopzone-three.vercel.app/)
