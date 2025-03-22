@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import CartItem from '../components/CartItem';
 import { useCart } from '../hooks/useCart';
 
@@ -29,6 +30,7 @@ const CartScreen = () => {
                     </div>
                 )}
             </main>
+            <Footer/>
         </div>
     );
 };
