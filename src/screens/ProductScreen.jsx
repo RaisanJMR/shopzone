@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router';
 import { useCart } from '../hooks/useCart';
 import Header from '../components/Header';
 import { FaStar, FaRegStar, FaLongArrowAltLeft  } from 'react-icons/fa';
+import Footer from '../components/Footer';
 
 const ProductScreen = () => {
     const { id } = useParams();
@@ -78,6 +79,7 @@ const ProductScreen = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </>    );
 };
 
