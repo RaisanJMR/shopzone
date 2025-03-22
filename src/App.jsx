@@ -4,6 +4,7 @@ import CartScreen from './screens/CartScreen';
 import ProductScreen from './screens/ProductScreen';
 import DealsScreen from './screens/DealsScreen';
 import ShopsScreen from './screens/ShopsScreen';
+import NotFound from './screens/NotFound';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/product/:id" element={<ProductScreen />} />
         <Route path="/deals" element={<DealsScreen/>} />
         <Route path="/shop" element={<ShopsScreen />} />
-        <Route path="*" element={<h1>Not Found</h1>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>
   );
